@@ -93,7 +93,7 @@ body {
   height: 4px;
   background-color: #2196f3;
   border-radius: 2px;
-  opacity: 0;
+
   transition: opacity 250ms;
 }
 
@@ -461,7 +461,7 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0;
-  transition: 250ms linear;
+  transition: 300ms linear;
 }
 
 .clients-soc-icon {
@@ -678,7 +678,7 @@ body {
 }
 
 .offers-item {
-  display: grid;
+  display: block;
   margin-right: 30px;
   margin-bottom: 30px;
   background-color: #ffffff;
@@ -705,6 +705,7 @@ body {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
+  font-size: 18px;
   line-height: 1.5;
   letter-spacing: 0.03em;
   opacity: 0.9;
