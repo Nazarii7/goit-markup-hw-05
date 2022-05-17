@@ -83,7 +83,21 @@ body {
   margin: 0px 0px;
 }
 
-.header-link::after {
+.link-studio::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: -32px;
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: #2196f3;
+  border-radius: 2px;
+
+  transition: opacity 250ms;
+}
+
+.link-portfolio::after {
   content: "";
   position: absolute;
   left: 0px;
